@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OcelotStores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="home.html"><img src="Images/Logo.png" alt="" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="product-1.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="Images/cart logo.png" alt="" width="30px" height="30px" class="cart-logo"></a>
+            <img src="Images/menu icon.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa call">&#9742;</i>
+                <h3>07048128511</h3>
+                       <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <img src="Images/testimony people (1).jpg" alt="">
+                    <h3>Jhaypee</h3>
+                    <h3>(CEO)</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa call">&#9742;</i>
+                    <h3>09064955762</h3>
+                           <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="Images/testimony people (3).jpg" alt="">
+                        <h3>Oluchukwu Okafor</h3>
+                        <h3>(MANAGER)</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa call">&#9742;</i>
+                               <div class="rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                            <img src="Images/testimony people (2).jpg" alt="">
+                            <h3>Ojei Winifred</h3>
+                            <h3>(SECRETARY)</h3>
+                        </div>
+            </div>
+        </div>
+</div>
+
+
+
+<!---------- footer --------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>DOWNLOAD OUR APP</h3>
+                <div class="app-logo">
+                    <a href=""><img src="Images/App logo (1).png" alt=""></a>
+                    <a href=""><img src="Images/App logo (2).png" alt=""></a> 
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>FOLLOW US</h3>
+                <div class="social-media">
+                    <a href="https://tiktok.com/@j.haypee"><img src="Images/Social media (1).png" alt=""></a>
+                    <a href="https://instagram.com/nifty_bby"><img src="Images/Social media (2).png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100088035327391"><img src="Images/Social media (3).png" alt=""></a>
+                    <a href="https://wa.me/message/VITTKXRB4EQUF1"><img src="Images/Social media (4).png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-col-3">
+                <a href="home.html"> <img src="Images/Logo.png" alt=""></a>
+                <p>Time is a precious commodity. Make every second count with our stunning 3D clocks</p>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">WEB-DESIGN 07048128511 &#9742;</p>
+    </div>
+</div>
+
+<!--------------link to js file-------->
+
+<script src="script.js"></script>
+
+<!-----------js for toggle menu--------->
+
+<script>
+    var MenuItems =document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>
